@@ -8,21 +8,25 @@ Web Scraping Project at https://githubstatus.com/
 
 Web Scraping is, in short, a scraping data in websites where, with the use of certain technologies, it is possible to extract data in an automated way, leaving aside the use of Ctrl C + Ctrl V.
 
-## Techs utilizadas
+# App Preview
+
+![AppicationArch](./src/public/gitgubstatusscraping.png)
+
+## Techs 
 
 - Cheerio
 - Axios
 - ReactJs
 - NodeJs
 
-## Instalacao
+## Instalacao / Installation
 
 - `npm install`
  <br> ou <br>
 - `yarn install`
 
 
-## Para rodar
+## Para rodar / Run
 
 - `npm run dev`
 <br> ou <br>
