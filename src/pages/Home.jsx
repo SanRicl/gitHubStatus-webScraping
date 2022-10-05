@@ -206,7 +206,7 @@ function Home() {
           </a>{" "}
         </FooterText>
         <FooterText>
-          This site was made only for educational pupose. For more information,
+          This site was made only for educational purpose. For more information,
           visit:{" "}
           <a href="https://www.githubstatus.com/" target="_blank">
             https://www.githubstatus.com/

@@ -142,6 +142,7 @@ export const Footer = styled.div`
   border-top: 1px solid rgba(0, 0, 0, 0.125);
   text-align: center;
   margin-top: 10%;
+  background: #fff;
 `;
 
 export const FooterText = styled.p`
