@@ -20,6 +20,8 @@ import {
   TextStatus,
   Title,
   AttentionIcon,
+  Footer,
+  FooterText,
 } from "./styles";
 
 function Home() {
@@ -32,8 +34,6 @@ function Home() {
     };
     getResponse();
   }, []);
-
- 
 
   return (
     <Container className="App">
@@ -198,6 +198,21 @@ function Home() {
           </GitStatusContainer>
         </ContentWrapper>
       </ContentContainer>
+      <Footer>
+        <FooterText>
+          Made with ❤️ by:{" "}
+          <a href="https://github.com/SanRicl" target="_blank">
+            SanRicl
+          </a>{" "}
+        </FooterText>
+        <FooterText>
+          This site was made only for educational pupose. For more information,
+          visit:{" "}
+          <a href="https://www.githubstatus.com/" target="_blank">
+            https://www.githubstatus.com/
+          </a>
+        </FooterText>
+      </Footer>
     </Container>
   );
 }

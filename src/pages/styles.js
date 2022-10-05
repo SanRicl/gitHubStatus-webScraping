@@ -3,6 +3,7 @@ import { BsGithub, BsCheck, BsExclamation } from "react-icons/bs";
 
 export const Container = styled.div`
   width: 100%;
+  height: 100vh;
 `;
 
 export const Header = styled.div`
@@ -135,3 +136,17 @@ export const InoperationalIcon = styled(BsExclamation)`
   height: 25px;
   color: #fff;
 `;
+
+export const Footer = styled.div`
+  padding: 5px;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  text-align: center;
+  margin-top: 10%;
+`;
+
+export const FooterText = styled.p`
+  font-size: 1rem;
+  color: #000;
+  font-weight: lighter;
+`;
+
