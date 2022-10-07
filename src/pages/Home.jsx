@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import getData from "../services/sacraping";
+import getData from "../services/scraping";
 
 import {
   CheckIcon,
